@@ -1,15 +1,46 @@
 {
-  "services": [{
-      "id": 1,
-      "title": "Post 1"
+  "services": [
+    {
+      "id": "48ed31fb-66d8-4e98-9f3b-9f703de33fa0",
+      "name": "my-haproxy-01",
+      "backends": [
+        {
+          "id":"6001a05c-beab-4807-b995-f3fe02de2995",
+          "fqdn": "my-haproxy-01-fra-01",
+          "port": 8080
+        },
+        {
+          "id":"1cb07c5b-c9e4-405c-b4a3-193843e4a412",
+          "fqdn": "my-haproxy-01-fra-02",
+          "port": 8080
+        },
+        {
+          "id":"0997bc42-3fb3-4686-ade5-15abf2dbc094",
+          "fqdn": "my-haproxy-01-fra-03",
+          "port": 8080
+        }
+      ]
     },
     {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
+      "id": "f51c56fc-0e79-4023-96b5-34f75125878f",
+      "name": "my-haproxy-02",
+      "backends": [
+        {
+          "id":"ae54a8a1-db12-4088-9ff3-41634cff8807",
+          "fqdn": "my-haproxy-02-fra-01",
+          "port": 8080
+        },
+        {
+          "id":"372ec08f-5eda-480c-a263-449368bb42e6",
+          "fqdn": "my-haproxy-02-fra-02",
+          "port": 8080
+        },
+        {
+          "id":"47b0c54b-ac5b-4944-bf17-af172441c859",
+          "fqdn": "my-haproxy-02-fra-03",
+          "port": 8080
+        }
+      ]
     }
   ]
 }
