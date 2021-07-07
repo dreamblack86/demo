@@ -4,15 +4,18 @@
       "name": "my-haproxy-01",
       "servers": [
         {
-          "fqdn": "my-haproxy-01-fra-01",
+          "name": "my-haproxy-01-fra-01.srv.lan",
+          "addr": "10.23.42.23",
           "port": 8080
         },
         {
-          "fqdn": "my-haproxy-01-fra-02",
+          "name": "my-haproxy-01-fra-02.srv.lan",
+          "addr": "10.23.42.24",
           "port": 8080
         },
         {
-          "fqdn": "my-haproxy-01-fra-03",
+          "name": "my-haproxy-01-fra-03.srv.lan",
+          "addr": "10.23.42.25",
           "port": 8080
         }
       ]
@@ -21,15 +24,18 @@
       "name": "my-haproxy-02",
       "servers": [
         {
-          "fqdn": "my-haproxy-02-fra-01",
+          "name": "my-haproxy-02-brl-01.srv.lan",
+          "addr": "10.23.234.23",
           "port": 8080
         },
         {
-          "fqdn": "my-haproxy-02-fra-02",
+          "name": "my-haproxy-02-brl-02.srv.lan",
+          "addr": "10.23.234.23",
           "port": 8080
         },
         {
-          "fqdn": "my-haproxy-02-fra-03",
+          "name": "my-haproxy-02-brl-03.srv.lan",
+          "addr": "10.23.234.23",
           "port": 8080
         }
       ]
